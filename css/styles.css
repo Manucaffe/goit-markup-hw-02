@@ -1,5 +1,66 @@
-body {
+.body {
     background-color: #ffffff;
-    font-family: roboto;
- 
+    font-family: roboto, sans-serif;
 }
+
+.logo {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+.logo::before {
+    text-decoration: none;
+    content: "WEB";
+    color: #4D5AE5;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2E2F42;
+    cursor: pointer;
+}
+nav a:hover {
+    color: #0000ff;
+}
+.contact-mail, .contact-phone {
+    color: #434455
+}
+
+.contact-mail:hover {
+    color: #0000ff;
+}
+
+.contact-mail:focus {
+    color: #0000ff;
+}
+
+.contact-phone:hover {
+    color: #0000ff;
+}
+
+.contact-phone:focus {
+    color: #0000ff;
+}
+
+button:hover {
+    color: #0000ff
+}
+
+button:focus {
+    color: #0000ff
+}
+
+p {
+    color: #434455;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2E2F42;
+}
+
+.bottom-main-text {
+    color: #F4F4FD
+}
+/* momentan nu se vede culoarea "text-bottom" din cauza ca nu avem acel container de culoare Navy Blue din footer. */
