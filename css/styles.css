@@ -1,8 +1,12 @@
 .body {
     background-color: #ffffff;
     font-family: roboto, sans-serif;
+    line-height: 1.5;
 }
 
+ul {
+    list-style-type: none;
+}
 .logo {
     text-decoration: none;
     color: #000000;
@@ -21,34 +25,22 @@ nav a {
     color: #2E2F42;
     cursor: pointer;
 }
-nav a:hover {
+nav a:hover, nav a:focus {
     color: #0000ff;
 }
 .contact-mail, .contact-phone {
     color: #434455
 }
 
-.contact-mail:hover {
+.contact-mail:hover, .contact-mail:focus {
     color: #0000ff;
 }
 
-.contact-mail:focus {
+.contact-phone:hover, .contact-phone:focus {
     color: #0000ff;
 }
 
-.contact-phone:hover {
-    color: #0000ff;
-}
-
-.contact-phone:focus {
-    color: #0000ff;
-}
-
-button:hover {
-    color: #0000ff
-}
-
-button:focus {
+button:hover, button:focus {
     color: #0000ff
 }
 
@@ -56,11 +48,44 @@ p {
     color: #434455;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.references {
+    color: black
+}
+/* culoarea pentru References este  #F4F4FD, dar am pus provizoriu black ca sa se vada pe fundalul alb.*/
+h1 {
+    font-size: 56px;
+    color:#ffffff
+    line-height: 3.75;
+}
+
+h2 {
+    font-size: 36px;
+    color: #2E2F42
+    line-height: 2.5;
+}
+
+h3 {
+    font-size: 20px;
+    color: #2E2F42
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #2E2F42;
 }
 
-.bottom-main-text {
-    color: #F4F4FD
-}
+
 /* momentan nu se vede culoarea "text-bottom" din cauza ca nu avem acel container de culoare Navy Blue din footer. */
+
+.futures-height {
+    font-size: 20px;
+}
+
+.button {
+    color:#ffffff
+}
